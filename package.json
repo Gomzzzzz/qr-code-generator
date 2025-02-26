@@ -1,0 +1,37 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "A simple QR code generator that takes user inputs for a link and a name.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack serve --mode development",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "test": "jest"
+  },
+  "dependencies": {
+    "qrcode": "^1.4.4",
+    "qrcode.react": "^1.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.2.3",
+    "babel-preset-react-app": "^10.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "jest": "^27.4.5",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.1"
+  },
+  "keywords": [
+    "qr",
+    "code",
+    "generator",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
